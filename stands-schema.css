@@ -1,0 +1,436 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.standpage-heading {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+
+.stands {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-row-gap: 10px;
+    justify-items: center;
+    width: 90%;
+    margin: 3rem auto;
+}
+    
+    .div1 { 
+        grid-area: 1 / 1 / 2 / 2;
+        border-radius: 4px;
+        border: 2px solid #3368C6;
+        height: 2.5em;
+        width: 2.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        cursor: pointer;
+        
+    }
+    .div2 { 
+        grid-area: 1 / 2 / 2 / 3;
+        border-radius: 4px;
+        border: 2px solid #3368C6;
+        height: 2.5em;
+        width: 2.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .div3 { 
+        grid-area: 1 / 3 / 2 / 4;
+        border-radius: 4px;
+        border: 2px solid #3368C6;
+        height: 2.5em;
+        width: 2.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .div4 {
+         grid-area: 1 / 4 / 2 / 5;
+         border-radius: 4px;
+        border: 2px solid #3368C6;
+        height: 2.5em;
+        width: 2.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        font-weight: 600;
+        cursor: pointer;
+        }
+    .div5 {
+         grid-area: 1 / 5 / 2 / 6;
+         border-radius: 4px;
+        border: 2px solid #3368C6;
+        height: 2.5em;
+        width: 2.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        font-weight: 600;
+        cursor: pointer;
+        }
+    .div6 {
+         grid-area: 2 / 1 / 3 / 2;
+         border-radius: 4px;
+        border: 2px solid #3368C6;
+        height: 2.5em;
+        width: 2.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        font-weight: 600;
+        cursor: pointer;
+        }
+    .div7 {
+         grid-area: 2 / 2 / 3 / 3;
+         border-radius: 4px;
+        border: 2px solid #3368C6;
+        height: 2.5em;
+        width: 2.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        font-weight: 600;
+        cursor: pointer;
+        }
+    .div8 {
+         grid-area: 2 / 3 / 3 / 4;
+         border-radius: 4px;
+        border: 2px solid #3368C6;
+        height: 2.5em;
+        width: 2.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        font-weight: 600;
+        cursor: pointer;
+        }
+    .div9 {
+         grid-area: 2 / 4 / 3 / 5;
+         border-radius: 4px;
+        border: 2px solid #3368C6;
+        height: 2.5em;
+        width: 2.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        font-weight: 600;
+        cursor: pointer;
+        }
+    .div10 {
+         grid-area: 2 / 5 / 3 / 6;
+         border-radius: 4px;
+        border: 2px solid #3368C6;
+        height: 2.5em;
+        width: 2.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        font-weight: 600;
+        cursor: pointer;
+        }
+    .div11 {
+         grid-area: 3 / 1 / 4 / 2;
+         border-radius: 4px;
+        border: 2px solid #3368C6;
+        height: 2.5em;
+        width: 2.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        font-weight: 600;
+        cursor: pointer;
+        }
+    .div12 { 
+        grid-area: 3 / 2 / 4 / 3; 
+        border-radius: 4px;
+        border: 2px solid #3368C6;
+        height: 2.5em;
+        width: 2.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .div13 { 
+        grid-area: 3 / 3 / 4 / 4; 
+        border-radius: 4px;
+        border: 2px solid #3368C6;
+        height: 2.5em;
+        width: 2.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .div14 { 
+        grid-area: 3 / 4 / 4 / 5; 
+        border-radius: 4px;
+        border: 2px solid #3368C6;
+        height: 2.5em;
+        width: 2.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .div15 { 
+        grid-area: 3 / 5 / 4 / 6; 
+        border-radius: 4px;
+        border: 2px solid #3368C6;
+        height: 2.5em;
+        width: 2.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .div16 {
+        grid-area: 4 / 1 / 5 / 2; 
+        border-radius: 4px;
+        border: 2px solid #3368C6;
+        height: 2.5em;
+        width: 2.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .div17 { 
+        grid-area: 4 / 2 / 5 / 3; 
+        border-radius: 4px;
+        border: 2px solid #3368C6;
+        height: 2.5em;
+        width: 2.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .div18 { 
+        grid-area: 4 / 3 / 5 / 4; 
+        border-radius: 4px;
+        border: 2px solid #3368C6;
+        height: 2.5em;
+        width: 2.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .div19 {
+         grid-area: 4 / 4 / 5 / 5; 
+         border-radius: 4px;
+        border: 2px solid #3368C6;
+        height: 2.5em;
+        width: 2.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .div20 { 
+        grid-area: 4 / 5 / 5 / 6; 
+        border-radius: 4px;
+        border: 2px solid #3368C6;
+        height: 2.5em;
+        width: 2.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .div21 {
+         grid-area: 5 / 1 / 6 / 2; 
+         border-radius: 4px;
+        border: 2px solid #3368C6;
+        height: 2.5em;
+        width: 2.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .div22 {
+         grid-area: 5 / 2 / 6 / 3; 
+         border-radius: 4px;
+        border: 2px solid #3368C6;
+        height: 2.5em;
+        width: 2.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .div23 {
+         grid-area: 5 / 3 / 6 / 4; 
+         border-radius: 4px;
+        border: 2px solid #3368C6;
+        height: 2.5em;
+        width: 2.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        cursor: pointer;
+        }
+    .div24 {
+         grid-area: 5 / 4 / 6 / 5; 
+         border-radius: 4px;
+        border: 2px solid #3368C6;
+        height: 2.5em;
+        width: 2.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        cursor: pointer;
+        }
+    .div25 {
+         grid-area: 5 / 5 / 6 / 6; 
+         border-radius: 4px;
+        border: 2px solid #3368C6;
+        height: 2.5em;
+        width: 2.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        cursor: pointer;
+        }
+    .div26 {
+         grid-area: 6 / 1 / 7 / 2; 
+         border-radius: 4px;
+        border: 2px solid #3368C6;
+        height: 2.5em;
+        width: 2.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        cursor: pointer;
+        }
+    .div27 {
+         grid-area: 6 / 2 / 7 / 3; 
+         border-radius: 4px;
+        border: 2px solid #3368C6;
+        height: 2.5em;
+        width: 2.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        cursor: pointer;
+        }
+    .div28 { 
+        grid-area: 6 / 3 / 7 / 4; 
+        border-radius: 4px;
+        border: 2px solid #3368C6;
+        height: 2.5em;
+        width: 2.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .div29 { 
+        grid-area: 6 / 4 / 7 / 5;
+        border-radius: 4px;
+        border: 2px solid #3368C6;
+        height: 2.5em;
+        width: 2.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .div30 { 
+        grid-area: 6 / 5 / 7 / 6; 
+        border-radius: 4px;
+        border: 2px solid #3368C6;
+        height: 2.3em;
+        width: 2.3em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    
+    .img {
+        height: 20em;
+        width: 90%;
+        margin: 4rem auto;
+        background-color: #3368C6;
+        
+    }
+
+    button {
+        border: none;
+        outline: none;
+        padding: .8rem 1.8rem;
+        margin-right: 2rem;
+        float: right;
+        color: white;
+        font-weight: 600;
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+        background-color: #FF9900;
+    }
+
+    @media (min-width: 726px) {
+
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            margin: 0 3rem;
+        }
+
+        .stands {
+            flex: 1;
+        }
+
+        .map {
+            flex: 2;
+        }
+
+        .stands div {
+            height: 3.2rem;
+            width: 3.2rem;
+        }
+
+        button {
+            margin-top: 2rem;
+            padding: 1rem 2.8rem;
+            font-size: 1.2rem;
+        }
+
+    } 

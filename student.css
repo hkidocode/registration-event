@@ -1,0 +1,214 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.wrapper-form {
+    border-radius: .3em;
+    width: 85%;
+    margin: 5rem auto;
+}
+
+form {
+    margin: .5rem 2rem;
+}
+
+.title {
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: .7rem;
+}
+
+#profile {
+    width: 100%;
+    height: 34px;
+    margin: auto;
+
+}
+
+.select-container {
+    display: inline-flex;
+    width: 100%;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    margin: auto;
+}
+
+.profile-title {
+    margin-top: 1.5rem;
+    margin-bottom: 1.2rem;
+    margin-right: 5rem;    
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+select {
+    margin-top: 2rem;
+    margin-bottom: 2rem;    
+}
+
+select:focus {
+    outline: none;
+    border: 2px solid #3368C6;
+}
+
+
+
+input[type="text"], input[type="tel"]  {
+    width: 100%;
+    height: 34px;
+    margin: auto;
+    font-size: 1rem;
+    text-indent: .5rem;
+    outline: none;
+}
+
+
+input[type="checkbox"] {
+    margin-right: 1rem;
+}
+
+input[type="text"]:focus {
+    border: 2px solid #3368C6;
+}
+
+input[type="tel"]:focus {
+    border: 2px solid #3368C6;
+}
+
+
+input[type="checkbox"] + label{
+    font-size: .75rem;
+    font-weight: 500;
+}
+
+.submit {
+    margin-top: 2rem;
+    outline: none;
+    border: none;
+    padding: .8rem 1.2rem;
+    float: right;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    background-color: #FF9900;
+}
+
+
+@media (min-width: 726px) and (max-width: 900px) {
+    form {
+        margin: 2rem 10rem;
+    }
+
+    .title {
+        font-size: 1.02rem;
+        margin-bottom: .5rem;
+    }
+
+    #profile {
+        height: 40px;
+    }
+
+    .profile-title {  
+        display: inline-block;
+        font-size: 1.02rem;
+        margin-bottom: .5rem;
+        margin-top: 0;
+    }
+
+    .select-container {
+        display: block;
+        margin-top: 2rem;
+        padding-top: 0;
+    }
+
+    input[type="text"], input[type="tel"]  {
+        height: 40px;
+        font-size: 1.01rem;
+        text-indent: .7rem;
+    }
+    
+    
+    input[type="checkbox"] {
+        margin-right: 1.01rem;
+    }
+
+    input[type="checkbox"] + label{
+        font-size: .8rem;
+        font-weight: 500;
+    }
+
+    .submit {
+        margin-top: 4.5rem;
+        padding: 1rem 1.8rem;
+        font-size: 1.01rem;
+    }
+} 
+
+@media (min-width: 901px) {
+
+    form {
+        margin: 2rem 14rem;
+    }
+
+    .title {
+        font-size: 1.1rem;
+        margin-bottom: .5rem;
+    }
+
+    #profile {
+        height: 44px;
+    }
+
+    .profile-title {
+        display: inline-block;  
+        font-size: 1.1rem;
+        margin-right: 0; 
+        margin-top: 0;
+        margin-bottom: .5rem;
+    }
+
+    .select-container {
+        display: block;
+        margin-top: 2rem;
+        padding-top: 0;
+    }
+
+    select {
+        padding: .5rem 1rem;    
+    }
+
+    input[type="text"], input[type="tel"]  {
+        height: 44px;
+        font-size: 1.1rem;
+        text-indent: .9rem;
+    }
+    
+    
+    input[type="checkbox"]{
+        margin-right: 1.1rem;
+        margin-top: 1rem;
+        width: 20px;
+        height: 20px;
+        
+    }
+
+    input[type="checkbox"] + label{
+        font-size: .9rem;
+        margin-bottom: 1rem;
+        
+    }
+
+    .submit {
+        margin-top: 5rem;
+        padding: 1rem 2.8rem;
+        font-size: 1.1rem;
+    }
+}
+
+

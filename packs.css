@@ -1,0 +1,229 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.sponsor-heading {
+    text-align: center;
+    color: #707070;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    font-size: 1.7rem;
+}
+
+.pack-types {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 6rem;
+    
+}
+    
+.silver { 
+    width: 80%;
+    height: 715px;
+    margin: auto;
+    position: relative;
+    margin-bottom: 5rem;
+    border: 2px solid rgba(131, 126, 126, .16);
+    box-shadow: 3px 8px 20px rgba(131, 126, 126, .16);
+    border-radius: 16px;
+}
+
+
+.gold { 
+    width: 80%;
+    height: 715px;
+    margin: auto;
+    position: relative;
+    margin-bottom: 5rem;
+    border: 2px solid rgba(131, 126, 126, .16);
+    box-shadow: 3px 8px 20px rgba(131, 126, 126, .16);
+    border-radius: 16px;
+    
+}
+
+
+.platinium { 
+    width: 80%;
+    height: 715px;
+    margin: auto;
+    position: relative;
+    margin-bottom: 3rem;
+    border: 2px solid rgba(131, 126, 126, .16);
+    box-shadow: 3px 8px 20px rgba(131, 126, 126, .16);
+    border-radius: 16px;
+        
+}
+
+.pack-title {
+    color: #28CBBC;
+    font-size: 1.7rem;
+    margin: 2rem 0;
+
+}
+
+.price {
+    color: #3368C6;
+    font-size: 3.5rem;
+    margin-bottom: 4rem;
+    
+}
+
+.silver-pack {
+    width: 75%;
+    margin: auto;
+}
+
+.gold-pack {
+    width: 75%;
+    margin: auto;
+}
+
+.platinium-pack {
+    width: 75%;
+    margin: auto;
+}
+
+.pack-content {
+    color: #4B4848;
+    list-style-type: none;
+    margin-bottom: 1.2rem;
+    text-align: left;
+    font-weight: 500;
+    font-size: 1.05rem;
+}
+
+
+.fa-check-circle:before {
+    content: "\f058";
+    margin-right: .5rem;
+    color: #28CBBC;
+}
+
+
+
+
+.action-div {
+    position: absolute;
+    bottom: 5%;
+    left: 30%;
+    right: 30%;
+}
+
+
+.buy-now-btn {
+    display: inline-block;
+    background: #FF9900;
+    padding: .8rem 2rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+}
+
+
+.features-dir {
+    margin: 1.7rem auto 0;
+}
+
+.features-dir  a {
+    color: #2196F3;
+    font-size: 1.4rem;
+    font-weight: 600;
+    
+}
+
+#features-more{
+    padding: 3em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    overflow: hidden;
+}
+
+table td, th {
+    padding: 10px;
+}
+
+td .fa-check-circle:before {
+    content: "\f058";
+    margin-right: .5rem;
+    color: #D3A518;
+}
+
+table th {
+    background-color: #3368C6;
+    color: white;
+    padding: .7em 1em;
+    text-align: center
+}
+
+.deg{
+    background-color: rgba(5, 84, 221, 0.3);
+}
+
+
+.mobile-header {
+    text-align: center
+}
+
+
+
+
+
+
+@media (min-width: 1020px) {
+
+    .sponsor-heading {
+        margin-top: 9rem;
+        margin-bottom: 8rem;
+        font-size: 2.1rem;
+    }
+
+    .pack-types {
+        flex-direction: row;
+        margin: 0 1rem 9rem;
+    }
+
+    .silver { 
+        width: 30%;
+        height: 660px;
+        margin-bottom: 0;
+        border-radius: 18px;
+    }
+    
+    
+    .gold { 
+        width: 30%;
+        height: 660px;
+        margin-bottom: 0;
+        border-radius: 18px;
+        
+    }
+    
+    .platinium { 
+        width: 30%;
+        height: 660px;
+        margin-bottom: 0;
+        border-radius: 18px;
+            
+    }
+
+    .buy-now-btn {
+        padding: 1rem 2 rem;
+        font-size: 1.1rem;
+    }
+
+    .features-dir  a {
+        font-size: 1.18rem;
+        
+    }
+
+    
+}
